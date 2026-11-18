@@ -104,7 +104,8 @@ h1 em, h2 em { color: #e5ae70; font-weight: 500; }
 .footer-brand .brand-name { font-size: .78rem; }
 .site-footer > p, .copyright { color: #bca8a1; font-size: .72rem; }
 .social-links { display: flex; gap: 1rem; }
-.social-links a { color: #e8d9d3; font-size: .78rem; text-decoration: none; }
+.social-links a { display: inline-flex; align-items: center; gap: .45rem; color: #e8d9d3; font-size: .78rem; text-decoration: none; }
+.social-links svg { width: 1rem; height: 1rem; flex: 0 0 auto; }
 .social-links a:hover, .social-links a:focus-visible { color: #e5ae70; }
 .whatsapp-button { position: fixed; z-index: 10; right: 1.5rem; bottom: 1.5rem; display: flex; align-items: center; gap: .6rem; padding: .75rem 1rem; border-radius: 3rem; color: white; background: #218c58; box-shadow: 0 5px 20px rgba(20, 42, 28, .25); font-size: .8rem; font-weight: 600; text-decoration: none; transition: background .2s, transform .2s; }
 .whatsapp-button:hover { transform: translateY(-2px); background: #177547; }
