@@ -14,6 +14,15 @@ navigation.addEventListener('click', (event) => {
   }
 });
 
+const directionsLink = document.querySelector('#directions-link');
+const isAndroidChrome = /Android/i.test(navigator.userAgent) && /Chrome\/\d+/i.test(navigator.userAgent);
+
+if (isAndroidChrome) {
+  const mapsUrl = new URL(directionsLink.href);
+  const fallbackUrl = encodeURIComponent(mapsUrl.href);
+  directionsLink.href = `intent://${mapsUrl.host}${mapsUrl.pathname}${mapsUrl.search}#Intent;scheme=https;package=com.google.android.apps.maps;S.browser_fallback_url=${fallbackUrl};end`;
+}
+
 const lightbox = document.querySelector('.lightbox');
 const lightboxImage = lightbox.querySelector('img');
 const lightboxCaption = lightbox.querySelector('p');
