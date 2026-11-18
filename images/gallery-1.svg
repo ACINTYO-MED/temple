@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#54202b"/><stop offset=".58" stop-color="#d07a55"/><stop offset="1" stop-color="#f0bb78"/></linearGradient>
+    <linearGradient id="temple" x2="1"><stop stop-color="#712b31"/><stop offset=".5" stop-color="#b4543e"/><stop offset="1" stop-color="#6d242c"/></linearGradient>
+  </defs>
+  <rect width="900" height="620" fill="url(#sky)"/>
+  <circle cx="680" cy="170" r="95" fill="#f3cf92" opacity=".8"/>
+  <path d="M0 470 Q190 380 360 470T720 450T1000 480V620H0Z" fill="#47212a" opacity=".55"/>
+  <path d="M0 520H900V620H0Z" fill="#3c2026"/>
+  <path d="M250 360 450 130l200 230Z" fill="#d78a4c"/>
+  <path d="M380 360 450 105l70 255Z" fill="#b95e42"/>
+  <path d="M287 360H613V520H287Z" fill="url(#temple)" stroke="#efbd79" stroke-width="5"/>
+  <path d="M420 520V420a30 30 0 0 1 60 0v100Z" fill="#38171d" stroke="#eac17f" stroke-width="4"/>
+  <path d="M215 530H685M245 548H655M270 566H630" stroke="#e3a65f" stroke-width="9"/>
+  <path d="M450 98v-28m-8 12h16" stroke="#f1ca8c" stroke-width="5"/>
+</svg>
